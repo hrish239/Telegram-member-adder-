@@ -1,0 +1,23 @@
+Instruction:
+1. Generate API ID and API hash for your telegram account. ( Go to https://my.telegram.org/ )
+
+2. Download python3 on your system.
+
+3. Open file add_members on your code editor or notepad ->
+    a. add your API id (on line no.11)
+    b. add you API hash (on line no.12)
+    c. add you phone number (on line no. 13)
+    d. SAVE!
+
+4. On your command prompt ->
+      a. pip install telethon
+      b. python scrap_members.py 
+         (Enter code recived on your telegram)
+         Choose group you want to scraper members from.
+      c. This will create a file name members in your folder containing list of members scraped.
+       * You haveto be a member of the group you want to scrape member from.     
+
+5. On your command prompt ->
+       a. python add_members.py members.csv
+       b. choose group you want to add member to.
+       c. members will be added to your group with a 60 sec break between each.
